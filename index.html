@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Template(3)</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top " style="opacity: 0.8;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/مخلخ.png" class="rounded-pill me-1" alt="" style="width:40px;">movies time</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsible">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="collapsible">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">suggest</a>
+                    </li>
+                    <li class="nav-item-dropdown">
+                        <a href="#" class="nav-link dropdown-toggle "data-bs-toggle="dropdown" role="button">movies</a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">series</a></li>
+                            <li><a class="dropdown-item" href="#">movie</a></li>
+                            <li><hr class="dropdown-divider"></hr></li>
+                            <li><a class="dropdown-item" href="#">tragedy</a></li>
+                            <li><a class="dropdown-item" href="#">comdey</a></li>
+                            <li><a class="dropdown-item" href="#">action</a></li>
+                            <li><a class="dropdown-item" href="#">drama</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input type="text" class="form-control " type="text" placeholder="Search">
+                    <button class="btn btn-outline-light mx-1" type="button">Search</button>
+                    <button class="btn btn-outline-light" type="button">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="all">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/1.jpg" alt="img1" class="d-block w-100" height="700px"> 
+                  <div class="carousel-caption">
+                    <h3>avengers</h3>
+                    <button class="btn btn-danger">View movie</button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/2.jpg" alt="img2" class="d-block w-100" height="700px">
+                  <div class="carousel-caption">
+                    <h3>mike</h3>
+                    <button class="btn btn-primary">View movie</button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/3.webp" alt="img2" class="d-block w-100" height="700px">
+                  <div class="carousel-caption">
+                    <h3>cars 3</h3>
+                    <button class="btn btn-success">View movie</button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/4.jpg" alt="img2" class="d-block w-100" height="700px">
+                    <div class="carousel-caption">
+                      <h3>spider man</h3>
+                      <button class="btn btn-secondary">View movie</button>
+                    </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+    </div>
+
+        <div class="container-fluid bg-dark text-light text-aligh-center">
+            <div class="card-body">
+            
+                <h1 class="card-title p-3 pt-4 ">movies time</h1>
+                
+                <p class="card-text px-3 py-1">Watch the latest and most recent movies and series</p>
+                
+                <button class="btn btn-primary m-3">watch now</button>
+            </div>
+        </div>
+    <hr>
+    <h1 class="card-text p-3  text-center bg-secondary text-light font-siza-20">popular movies now
+    </h1>
+    <div class="accordion" id="accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              avengers end game
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordion">
+            <div class="accordion-body">
+              After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos.      
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+              cars 3
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+            <div class="accordion-body">
+              Blindsided by a new generation of blazing-fast racers, the legendary Lightning McQueen is suddenly pushed out of the sport he loves. To get back in the game, he will need the help of an eager young race technician with her own plan to win, inspiration from the late Fabulous Hudson Hornet, and a few unexpected turns. Proving that #95 isn't through yet will test the heart of a champion on Piston Cup Racing's biggest stage!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+             mike
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+            <div class="accordion-body">
+              The wild, tragic, and controversial life and career behind one of the most polarizing figures in sports culture, heavyweight champion Mike Tyson.    
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h1 class="card-text p-3  text-center bg-secondary text-light font-size-20">watch the flash now</h1>
+
+      <div class="container-fluid bg-dark text-light">
+        <div class="card-body">
+            <h2 class="card-title p-3 pt-4 ">Most Popular Movies now <a href="https://www.python.org/shell/" target="_blank">here</a></h2>
+            <button class="btn btn-outline-light m-3 ">watch</button>
+            <h4 class="card-title p-4 px-5">Barry Allen uses his super speed to change the past, but his attempt to save his family creates a world without super heroes, forcing him to race for his life in order to save the future.</h4>
+        </div>
+      </div>
+      <h1 class="card-text p-3  text-center bg-secondary text-light font-size-20">watch the Avatar: The Way of Water now</h1>
+
+      <div class="container-fluid bg-dark text-light">
+        <div class="card-body">
+            <h2 class="card-title p-3 pt-4 ">Most Popular Movies now <a href="https://www.onlinegdb.com/online_java_compiler" target="_blank">here</a></h2>
+            <button class="btn btn-outline-light m-3 ">watch</button>
+            <h4 class="card-title p-4 px-5">Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.</h4>
+        </div>
+      </div>
+      <h1 class="card-text p-3  text-center bg-secondary text-light font-size-20">watch the Transformers: Rise of the Beasts now</h1>
+
+      <div class="container-fluid bg-dark text-light">
+        <div class="card-body">
+            <h2 class="card-title p-3 pt-4 ">Most Popular Movies now <a href="https://www.programiz.com/javascript/online-compiler/" target="_blank">here</a></h2>
+            <button class="btn btn-outline-light m-3 ">watch</button>
+            <h4 class="card-title p-4 px-5">During the '90s, a new faction of Transformers - the Maximals - join the Autobots as allies in the battle for Earth.</h4>
+        </div>
+      </div>
+      <section class="section1">
+        <div class="overlay">
+        </div>
+      </section>
+      <h3 class="text-center p-4 text-light ">Good Basic</h3>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row justify-content-around bg-secondary">
+        
+          <div class="div1 card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 " style="width: 18rem;">
+            <a href="#" target="_blank">
+            <img src="images/HTML.png" alt="FAST X" width="100%" height="300px">
+            </a>
+            <div class="card-body ">
+              <h5 class="card-title">FAST X</h5>
+              <p class="card-text">Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes..</p>
+              <a href="" class="btn btn-primary">download the movie</a>
+            </div>
+          </div>
+        <div class="div2 card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+            <a href="#" target="_blank">
+            <img src="images/saad.png" alt="FAST X" width="100%" height="300px">
+            </a>
+            <div class="card-body ">
+              <h5 class="card-title">The Covenant</h5>
+              <p class="card-text">During the war in Afghanistan, a local interpreter risks his own life to carry an injured sergeant across miles of grueling terrain.</p>
+              <a href="#" class="btn btn-primary">download the movie</a>
+            </div>
+        </div>
+        <div class="div3 card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+            <a href="#" target="_blank">
+            <img src="images/download.png" alt="js" width="100%" height="300px">
+            </a>
+            <div class="card-body ">
+              <h5 class="card-title">Extraction II</h5>
+              <p class="card-text">After barely surviving his grievous wounds from his mission in Dhaka, Bangladesh, Tyler Rake is back, and his team is ready to take on their next mission.</p>
+              <a href="" class="btn btn-primary">download the movie</a>
+            </div>
+        </div>
+        <div class="div4 card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+            <a href="#" target="_blank">
+            <img src="images/download.webp" alt="java" width="100%" height="300px">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">the flash</h5>
+              <p class="card-text">Barry Allen uses his super speed to change the past, but his attempt to save his family creates a world without super heroes, forcing him to race for his life in order to save the future.</p>
+              <a href="" class="btn btn-primary">download the movie</a>
+            </div>
+        </div>
+        <div class="div5 card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+            <a href="#" target="_blank"></a>
+            <img src="images/Python-language.png" alt="python" width="100%" height="100%">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">avatar</h5>
+            <p class="card-text">Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.</p>
+            <a href="" class="btn btn-primary">download the movie</a>
+          </div>
+        </div>
+        <div class="div6 card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 " style="width: 18rem;">
+            <a href="#" target="_blank">
+            <img src="images/Bootstrap_logo.svg.png" alt="bootstrap" width="100%" height="300px">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Shazam</h5>
+              <p class="card-text">The film continues the story of teenage Billy Batson who, upon reciting the magic word "SHAZAM!" is transformed into his adult Super Hero alter ego, Shazam.</p>
+              <a href="" class="btn btn-primary">download the movie</a>
+            </div>
+        </div>
+        <div class="div7 card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+            <a href="#" target="_blank">
+            <img src="images/download (1).png" alt="json" width="100%" height="300px">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">the god father</h5>
+              <p class="card-text">Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.</p>
+              <a href="" class="btn btn-primary">download the movie</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+      <section class="section1">
+          <div class="overlay">
+          </div>
+      </section>
+
+        <hr>
+      <h3 class="text-center p-4 text-light bg-secondary">suggest for you</h3>
+     <div class="container-fluid bg-secondary ">
+        <div class="row justify-content-center  ">
+          
+          <div class="card bg-secondary text-light col-lg-3 col-md-4 col-sm-12">
+            <img class="card-img-top" src="images/The-Black-Demon-UK-Poster-Signature-Entertainment-768x1024.webp" alt="" width="400px" height="400px">
+            <h4 class="card-title ">The Black Demon</h4>
+          </div>
+
+          <div class="card bg-secondary text-light col-lg-3 col-md-4 col-sm-12">
+            <img class="card-img-top" src="images//HTML.png" alt="" width="400px" height="400px">
+            <h4 class="card-title">The fast x</h4>
+          </div>
+
+          <div class="card bg-secondary text-light col-lg-3 col-md-4 col-sm-12">
+            <img class="card-img-top" src="images/p173378_p_v8_au.jpg" alt="" width="400px" height="400px">
+            <h4 class="card-title">The Dark Knight</h4>
+          </div>
+
+        </div>
+     </div> 
+     <hr>
+     <h3 class="text-center p-4 text-light bg-secondary ">Join Us</h3>
+
+  <div class="container-fluid bg-secondary p-4 ">
+    <div class="d-flex row justify-content-center ">
+      <div class="card m-3 bg-dark" style="width: 18rem;">
+        <div class="card-body text-light d-flex flex-column text-center">
+          <h6 class="card-title mb-4">Subscribe Now</h6>
+          <input class="myicon mb-2" style="align-self: center;" src="images/facebook.webp" type="image" alt="facebook" width="40px" height="40px">
+          <a href="#" target="_blank" class="card-link">Go to link</a>
+        </div>
+          
+      </div>
+      <div class="card m-3 bg-dark" style="width: 18rem;">
+        <div class="card-body text-light d-flex flex-column text-center">
+          <h6 class="card-title mb-4">Follow</h6>
+          <input class="myicon mb-2" style="align-self: center;" src="images/facebook.webp" type="image" alt="facebook" width="40px" height="40px">
+          <a href="#" target="_blank" class="card-link">Go to link</a>
+        </div>
+        
+    </div>
+    <div class="card m-3 bg-dark" style="width: 18rem;">
+      <div class="card-body text-light d-flex flex-column text-center">
+        <h6 class="card-title mb-4">Like the Page</h6>
+        <input class="myicon mb-2" style="align-self: center;" src="images/facebook.webp" type="image" alt="facebook" width="40px" height="40px">
+        <a href="#" target="_blank" class="card-link">Go to link</a>
+      </div>
+  </div>
+      <div class="card m-3 bg-dark" style="width: 18rem;">
+        <div class="card-body text-light d-flex flex-column text-center">
+          <h6 class="card-title mb-4">Watch movies</h6>
+          <input class="myicon mb-2" style="align-self: center;" src="images/facebook.webp" type="image" alt="facebook" width="40px" height="40px">
+          <a href="#" target="_blank" class="card-link">Go to link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="bg-dark text-light mt-5 p-2 pb-5 ">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <hr class="border-top">
+          <img src="images/facebook.webp" alt="good pic" class="myicon d-inline" width="40px" height="40px">
+          <span>Good movies</span>
+          <hr class="border-top">
+            <p>best movies</p>
+            <p>suggest movies</p>
+            <p>popular movies</p>
+        </div>
+
+        <div class="col-md-4">
+          <hr class="border-top ">
+          <img src="images/facebook.webp" alt="good pic" class="myicon d-inline" width="40px" height="40px">
+          <span>Important Links</span>
+          <hr class="border-top">
+            <p><a href="" target="_blank">Visit Us</a></p>
+            <p><a href="" target="_blank">Take alook</a></p>
+            <p><a href="" target="_blank">don't waste ur time</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <hr class="border-top">
+          <img src="images/facebook.webp" alt="good pic" class="myicon d-inline" width="40px" height="40px">
+          <span>Vision</span>
+          <hr class="border-top">
+            <p>movies for all </p>
+            <p>Provide best movies</p>
+            <p>have agood time</p>
+        </div>
+        
+      </div>
+    </div>
+    <hr>
+    <span class="text-center d-block text-secondary">Copyright &copy; saad company for devlopment All rights</span>
+    <hr>
+</footer>
+
+</body>
+</html>

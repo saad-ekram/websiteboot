@@ -1,0 +1,23 @@
+body{
+    height: 5000px;
+    background-color: gray !important;
+    
+}
+.navbar-nav{
+    margin-right: 900px;
+}
+.navbar-brand{
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+.all{
+    background-color: grey;
+}
+.section1{
+    width: 100%;
+    position: relative;
+    background-image: url(../images/ae549ab9-2c14-4c87-8640-86d8ce67fb4f.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
